@@ -8,8 +8,8 @@ dependencies:
     specifier: ^1.2.1
     version: 1.2.1
   protobufjs:
-    specifier: ~7.2.3
-    version: 7.2.3
+    specifier: ~7.2.4
+    version: 7.2.4
   rollup-plugin-node-polyfills:
     specifier: ^0.2.1
     version: 0.2.1
@@ -29,7 +29,7 @@ devDependencies:
     version: 6.0.3
   protobufjs-cli:
     specifier: ~1.1.1
-    version: 1.1.1(protobufjs@7.2.3)
+    version: 1.1.1(protobufjs@7.2.4)
   tslib:
     specifier: ^2.4.1
     version: 2.5.0
@@ -2707,7 +2707,7 @@ packages:
       async-await-queue: 1.2.1
       events: 3.3.0
       loglevel: 1.8.1
-      protobufjs: 7.2.3
+      protobufjs: 7.2.4
       sdp-transform: 2.14.1
       ts-debounce: 4.0.0
       typed-emitter: 2.1.0
@@ -2721,7 +2721,7 @@ packages:
       axios: 1.4.0
       camelcase-keys: 7.0.2
       jsonwebtoken: 9.0.0
-      protobufjs: 7.2.3
+      protobufjs: 7.2.4
     transitivePeerDependencies:
       - debug
     dev: false
@@ -2953,7 +2953,7 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: true
 
-  /protobufjs-cli@1.1.1(protobufjs@7.2.3):
+  /protobufjs-cli@1.1.1(protobufjs@7.2.4):
     resolution: {integrity: sha512-VPWMgIcRNyQwWUv8OLPyGQ/0lQY/QTQAVN5fh+XzfDwsVw1FZ2L3DM/bcBf8WPiRz2tNpaov9lPZfNcmNo6LXA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -2967,14 +2967,14 @@ packages:
       glob: 8.1.0
       jsdoc: 4.0.2
       minimist: 1.2.8
-      protobufjs: 7.2.3
+      protobufjs: 7.2.4
       semver: 7.5.0
       tmp: 0.2.1
       uglify-js: 3.17.4
     dev: true
 
-  /protobufjs@7.2.3:
-    resolution: {integrity: sha512-TtpvOqwB5Gdz/PQmOjgsrGH1nHjAQVCN7JG4A6r1sXRWESL5rNMAiRcBQlCAdKxZcAbstExQePYG8xof/JVRgg==}
+  /protobufjs@7.2.4:
+    resolution: {integrity: sha512-AT+RJgD2sH8phPmCf7OUZR8xGdcJRga4+1cOaXJ64hvcSkVhNcRHOwIxUatPH15+nj59WAGTDv3LSGZPEQbJaQ==}
     engines: {node: '>=12.0.0'}
     requiresBuild: true
     dependencies:
